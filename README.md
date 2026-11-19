@@ -41,3 +41,9 @@ py -3 main.py
 ## 许可证
 
 原创代码采用 MIT 许可证，见 `LICENSE`。PySide6 等依赖保留各自许可证。
+
+## 打包与 ICU 修复
+
+已确认可用的 v1.0.3 安装包在 [Releases](https://github.com/rzrz1234/project-creator/releases/tag/v1.0.3) 下载。
+
+依赖锁定 PySide6 6.12.0，后续构建统一使用干净环境、onedir 和 ICU 双重过滤，详见 [打包说明](packaging/打包说明.md)。
